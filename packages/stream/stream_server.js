@@ -15,7 +15,7 @@ Meteor._StreamServer = function () {
     self.server_id = Meteor.uuid();
 
   // set up sockjs
-  var sockjs = requireNpm('sockjs');
+  var sockjs = Npm.require('sockjs');
   self.server = sockjs.createServer({
     prefix: '/sockjs', log: function(){},
     // this is the default, but we code it explicitly because we depend
