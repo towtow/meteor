@@ -26,7 +26,7 @@
 	"tar": "0.1.14",
 	"progress": "0.0.5",
 	"mailcomposer": "0.1.15",
-	"fstream": "*",
+	"fstream": "0.1.21",
 	"fibers": "0.6.9"
     }
 }
